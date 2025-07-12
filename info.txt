@@ -1,0 +1,25 @@
+Apache Kafka is a distributed streaming platform designed for handling large-scale, real-time data feeds with high throughput and low latency. Kafka is highly scalable, fault-tolerant, and durable, making it ideal for event-driven architectures, log aggregation, and stream processing.
+ It operates as a publish-subscribe messaging system, where producers send messages to topics, and consumers subscribe to those topics to process the messages.
+
+link - https://projects.100xdevs.com/tracks/kafka/Kafka-1
+
+Key concepts:
+
+Producers - Applications that send (publishes or producers) messages to Kafka topics.
+Consumers - Applications that read (subscribes or consumes) messages from Kafka topics.
+Topics - A topic is a logical channel to which producers send messages and from which consumers read messages. 
+Brokers - Kafka servers that store and manage the data.
+Cluster and broker - A group of machines running kafka are known as a kafka cluster. Each individual machine is called a broker.
+
+Partitions - Topics are split into partitions for scalability and parallel processing.
+Consumer Groups - Consumers can be grouped to distribute message processing. 
+
+Offsets - Consumers keep track of their position in the topic by maintaining offsets, which represent the position of the last consumed message. Kafka can manage offsets automatically or allow consumers to manage them manually.
+
+
+Use cases of Kafka -
+ - Real-time stream processing
+ - Event sourcing architectures
+ - Log aggregation
+ - Message brokering for microservices
+ - Metrics collection and monitoring
